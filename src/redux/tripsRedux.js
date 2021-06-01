@@ -13,9 +13,7 @@ export const getFilteredTrips = ({trips, filters}) => {
 
   // TODO - filter by duration
   if(filters.duration){
-    output = output.filter((trip) =>
-      trip.days >= parseInt(filters.duration.from) && 
-      trip.days <= parseInt(filters.duration.to));
+    output = output.filter((trip) => trip.days >= parseInt(filters.duration.from) && trip.days <= parseInt(filters.duration.to));
   }
   // TODO - filter by tags
   if(filters.tags){
@@ -32,6 +30,7 @@ export const getTripById = ({trips}, tripId) => {
   const filtered = trips.filter(
     (trip) => trip.id == tripId
   );
+
   // TODO - filter trips by tripId
 
   console.log('filtering trips by tripId:', tripId, filtered);
@@ -55,13 +54,8 @@ export const getTripsForCountry = ({trips}, countryCode) => {
 // action name creator
 const reducerName = 'trips';
 const createActionName = name => `app/${reducerName}/${name}`;
-
 // action types
-
-
 // action creators
-
-
 // reducer
 export default function reducer(statePart = [], action = {}) {
   switch (action.type) {
