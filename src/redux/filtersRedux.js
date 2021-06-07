@@ -33,8 +33,7 @@ export default function reducer(statePart = [], action = {}) {
       return {
         ...statePart,
         duration: {
-          from: action.payload.type === 'from' && +action.payload.value <= +statePart.duration.to ? action.payload.value : statePart.duration.from,
-          to: action.payload.type === 'to' && +action.payload.value >= +statePart.duration.from ? action.payload.value : statePart.duration.to,
+          duration: {...statePart.duration, [action.payload.type]: action.payload.value},
         },
       };
     case CHANGE_TAG:
