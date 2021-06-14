@@ -68,14 +68,14 @@ describe('Component OrderOption', () => {
       let component;
       let subcomponent;
       let renderedSubcomponent;
-      let mockSetOrderOption; /* 1 */
+      let mockSetOrderOption; 
 
       beforeEach(() => {
-        mockSetOrderOption = jest.fn(); /* 2 */
+        mockSetOrderOption = jest.fn();
         component = shallow(
           <OrderOption
             type={type}
-            setOrderOption={mockSetOrderOption} /* 3 */
+            setOrderOption={mockSetOrderOption}
             {...mockProps}
             {...mockPropsForType[type]}
           />
