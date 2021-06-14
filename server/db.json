@@ -1,0 +1,71 @@
+{
+  "orders": [
+    {
+      "car-rental": "full",
+      "accommodation": "suite",
+      "features": [],
+      "adults": "4",
+      "children": "2",
+      "name": "Pauina",
+      "contact": "555",
+      "start-date": "2021-06-19T22:00:00.000Z",
+      "totalCost": "$259,904",
+      "id": 1
+    },
+    {
+      "car-rental": "",
+      "accommodation": "suite",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$51,881",
+      "id": 2
+    },
+    {
+      "car-rental": "suv",
+      "accommodation": "house",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "gtggtt",
+      "contact": "7777777777777",
+      "start-date": "2021-06-12T22:00:00.000Z",
+      "totalCost": "$52,581",
+      "id": 3
+    },
+    {
+      "car-rental": "full",
+      "accommodation": "suite",
+      "features": [
+        "pool"
+      ],
+      "adults": "3",
+      "children": "1",
+      "name": "paula",
+      "contact": "7777777777777777",
+      "start-date": "2021-06-19T22:00:00.000Z",
+      "totalCost": "$185,433",
+      "id": 4
+    },
+    {
+      "car-rental": "full",
+      "accommodation": "hotel",
+      "features": [
+        "all-inclusive"
+      ],
+      "adults": 1,
+      "children": "1",
+      "name": "ggggg",
+      "contact": "55555555555",
+      "start-date": "2021-06-19T22:00:00.000Z",
+      "totalCost": "$77,521",
+      "tripsId": "5cc1d10130dfa407e2e54e20",
+      "tripsName": "Pleasant travel in cool Turkey",
+      "tripsCountry": "Turkey",
+      "id": 5
+    }
+  ]
+}
